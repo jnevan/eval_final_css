@@ -1,22 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script");
 
-@-webkit-keyframes slidein{
-  0%{
-    margin-top: 150%;
-  }
-
-  50%{
-    margin-top: -5%;
-  }  
-
-  100%{
-    margin-top: 0%;
-  }
-}
 body {
 
 	font-family: 'Dancing Script';
 	background: #02010a;
+}
+@-webkit-keyframes slidein{
+  0%{
+    margin-top: 150%;
+  }
+  50%{
+    margin-top: -5%;
+  }  
+  100%{
+    margin-top: 0%;
+  }
 }
 #contenido{
 	 max-width: 900px;
@@ -25,7 +23,6 @@ body {
 }
 
 #cabecera{
-
 	background-color:#5b7989;
 	text-shadow: 2px #02010a;
 	color: #fff;
@@ -133,10 +130,14 @@ footer {
 	-moz-border-radius: 0 0 10px 10px;       /* Firefox */
 	display: flex;
 	flex-direction: row;
+	
 }
 footer > div{
 	text-align: center;
 	width: 25%;
+}
+footer > div >p{
+	line-height:12px;
 }
 .img-adaptativa{
 	width:100%;
